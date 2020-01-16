@@ -1,0 +1,47 @@
+Commandes utilisées dans Git :
+
+git init
+        Initialise le repertoire comme un nouveau repository Git.
+        
+git status 
+        Pour avoir le status du Git au moment présent.
+
+git diff
+        Pour voir s'il y a des differences entre les fichiers locaux et le dernier commit.
+
+git add fichier (add . # ajouter tous les fichiers)
+        Permet de sauver un fichier dans Git.
+
+git commit -m "Message pour comprendre le commit"
+        Commit les fichiers sauvegardés dans Git.
+        
+git config --global user.username <USerNamE>
+        pour assigner le username de notre GitHub
+     
+git config --global user.name "Your Name"
+                    user.email "My email"
+        Pour assigner notre nom et email à notre Git.
+
+git remote add origin URLDUPROJET (<REMOTENAME> <URL>)
+        Permet d'assigner notre depository Git à son adresse Github. Le nom 'origin' est arbirtraire et permet de s'addresser (to commit
+        par exemple) au repository github très facilement.
+
+git remote set-url <REMOTENAME> <URL>
+        Pour assigner l'URL github du repository à un nom choisi (accès rapide).
+        
+git remote -v
+        Pour voir les URL associées avec les REMOTENAME.
+
+git push origin master (<REMOTENAME> <BRANCH>)
+        La commande push va envoyer le master (toute l'arborescence de mon repository local) vers le repository Github 'origin'
+
+git clone <URLFROMGITHUB>
+        Permet de recupérer tout le Git venant de l'URL du github. Le repertoire du git sera créé automatiquement et tout sera
+        rapatrié sur le disque local
+        
+git log
+        Donne le log de tous les commits emis dans ta branche jusqu'à l'origine.
+
+git remote add upstream https://github.com/jlord/patchwork.git
+
+
