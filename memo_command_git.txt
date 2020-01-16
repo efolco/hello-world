@@ -42,6 +42,8 @@ git clone <URLFROMGITHUB>
 git log
         Donne le log de tous les commits emis dans ta branche jusqu'à l'origine.
 
-git remote add upstream https://github.com/jlord/patchwork.git
-
+git remote add upstream <AUTREURLQUELAPREMIERE>
+        L'idée ici est d'ajouter une autre URL dans le Git, avec un autre Remote Name. Par exemple cela permet de recuperer une 
+        autres version du Git.
+        
 
